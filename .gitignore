@@ -7,7 +7,6 @@ build-info.json
 
 # Wrangler
 .wrangler/
-.dev.vars
 
 # Logs
 *.log
