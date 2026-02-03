@@ -3,11 +3,11 @@
   "account_id": "d8ee2c96edd90d9126136f05506ed95d",
   "name": "moltworker",
   "main": "src/index.ts",
-  "compatibility_date": "2025-05-06", // Redeploy
+  "compatibility_date": "2025-05-06",
   "compatibility_flags": ["nodejs_compat"],
   "observability": {
     "enabled": true,
-  }, // nudge
+  },
   // Static assets for admin UI (built by vite)
   "assets": {
     "directory": "./dist/client",
