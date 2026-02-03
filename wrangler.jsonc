@@ -50,9 +50,12 @@
       },
     ],
   },
-  // Migrations removed - starting fresh with Sandbox class
-  // If you have an existing deployment, you may need to delete the worker first:
-  // wrangler delete moltworker
+  "migrations": [
+    {
+      "tag": "v1",
+      "new_sqlite_classes": ["Sandbox"],
+    },
+  ],
   // R2 bucket for persistent storage (moltbot data, conversations, etc.)
   "r2_buckets": [
     {
