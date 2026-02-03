@@ -47,7 +47,7 @@ function transformErrorMessage(message: string, host: string): string {
   return message;
 }
 
-export { Sandbox as MoltworkerContainer };
+export { Sandbox };
 
 /**
  * Validate required environment variables.

@@ -36,7 +36,7 @@
   // Container configuration for the Moltbot sandbox
   "containers": [
     {
-      "class_name": "MoltworkerContainer",
+      "class_name": "Sandbox",
       "image": "./Dockerfile",
       "instance_type": "standard-4",
       "max_instances": 1,
@@ -45,15 +45,16 @@
   "durable_objects": {
     "bindings": [
       {
-        "class_name": "MoltworkerContainer",
+        "class_name": "Sandbox",
         "name": "Sandbox",
       },
     ],
   },
   "migrations": [
     {
-      "new_sqlite_classes": ["MoltworkerContainer"],
-      "tag": "v3",
+      "deleted_classes": ["MoltworkerContainer"],
+      "new_sqlite_classes": ["Sandbox"],
+      "tag": "v4",
     },
   ],
   // R2 bucket for persistent storage (moltbot data, conversations, etc.)
