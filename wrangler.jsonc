@@ -1,7 +1,7 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "account_id": "d8ee2c96edd90d9126136f05506ed95d",
-  "name": "moltworkers",
+  "name": "moltworker",
   "main": "src/index.ts",
   "compatibility_date": "2025-05-06",
   "compatibility_flags": ["nodejs_compat"],
